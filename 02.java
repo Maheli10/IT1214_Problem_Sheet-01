@@ -62,7 +62,7 @@ class ParkingLot {
             return;
         }
         for (int i = 0; i < parkedVehiclesCount; i++) {
-            System.out.println("Account "+vehicles[i].getLicensePlate()+"Holder: "+vehicles[i].getOwnerName()+"Balance: "+vehicles[i].getHoursParked());
+            System.out.println("Liscence: "+vehicles[i].getLicensePlate()+"Owner: "+vehicles[i].getOwnerName()+"Hours: "+vehicles[i].getHoursParked());
         }
     }
 
