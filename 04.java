@@ -1,4 +1,4 @@
-public class Ticket {
+class Ticket {
     private int ticketNumber;
     private String customerName;
     private int seatNumber;
